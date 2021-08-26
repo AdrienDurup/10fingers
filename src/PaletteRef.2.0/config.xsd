@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<base>
+<order>
+Intitulé
+Réf
+Prix
+PU
+Objet
+</order>
+<items>
+<Intitule>
+<name>Intitulé</name>
+<optional></optional>
+<format></format>
+</Intitule>
+<Ref>
+<name>Réf</name>
+<optional></optional>
+<format></format>
+</Ref>
+<Prix>
+<name>Réf</name>
+<optional></optional>
+<format></format>
+</Prix>
+<PU>
+<name>PU</name>
+<optional></optional>
+<format></format>
+</PU>
+<Objet>
+<name> Objet </name>
+<optional></optional>
+<format></format>
+</Objet>
+</items>
+</base>

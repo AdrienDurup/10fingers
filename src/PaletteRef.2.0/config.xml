@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+<items>
+<item name="intitule" label="Intitulé" fieldSize="30" mandatory="false" format="{?} &#0009; " />
+<item name="ref" label="Réf" fieldSize="5" mandatory="true" format="{?}" />
+<item name="prix" label="Prix" fieldSize="6" mandatory="true" format=" > {?}€" />
+<item name="pu" label="PU" fieldSize="6" mandatory="false" format=" ({?}€" />
+<item name="objet" label="Objet" fieldSize="30" mandatory="false" format=" {?})" />
+</items>
+</root>
+
+<!-- Pour les caractères réservés, se référer aux codes décimaux, héxadécimaux, ou UNICODES. Ils doivent commencer par "&#" et se terminer par ";"
+Pour les unicodes : remplacer "U+" par "&#" et rajouter ";" à la fin. Example : Tabulation => U+0009 devient &#0009;
+
+Quelques codes décimaux :
+&#09;   Tabulation
+&#09;	Horizontal tab	non-printing
+&#10;	Line feed	non-printing
+&#13;	Carriage Return	non-printing
+&#32;	Space	non-printing
+&#33;	Exclamation mark	!
+&#34;	Quotation mark	"
+&#35;	Number sign	#
+&#36;	Dollar sign	$
+&#37;	Percent sign	%
+&#38;	Ampersand	&
+&#39;	Apostrophe	'
+&#40;	Left parenthesis	(
+&#41;	Right parenthesis	)
+&#42;	Asterisk	*
+&#43;	Plus sign	+
+&#44;	Comma	,
+&#45;	Hyphen	-
+&#46;	Period	.
+&#47;	Slash	/
+&#58;	Colon	:
+&#59;	Semi-colon	;
+&#60;	Less than	<
+&#61;	Equals sign	=
+&#62;	Greater than	>
+&#63;	Question mark	?
+&#64;	At	@
+&#91;	Left square bracket	[
+&#92;	Bbackslash	\
+&#93;	Right square bracket	]
+&#94;	Caret	^
+&#95;	Underscore	_
+&#96;	Acute accent	`
+&#123;	Left curly brace	{
+&#124;	Vertical bar	|
+&#125;	Right curly brace	}
+&#126;	Tilde	~ -->
